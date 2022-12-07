@@ -1,0 +1,122 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "A"
+    },
+    {
+      "id": 2,
+      "name": "B"
+    }
+  ],
+  "subCategory": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "A-1"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "A-2"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "A-3"
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "name": "B-1"
+    },
+    {
+      "id": 5,
+      "category_id": 2,
+      "name": "B-2"
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "name": "B-3"
+    }
+  ],
+  "sub_sub_category": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "subCategory_id": 1,
+      "name": "A-1-1"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "subCategory_id": 1,
+      "name": "A-1-2"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "subCategory_id": 1,
+      "name": "A-1-3"
+    }
+  ],
+  "persons": [
+    {
+      "id": 1,
+      "user_type": "writer",
+      "name": "Rahul"
+    },
+    {
+      "id": 2,
+      "user_type": "writer",
+      "name": "Ravi"
+    },
+    {
+      "id": 3,
+      "user_type": "writer",
+      "name": "Rohan"
+    },
+    {
+      "id": 4,
+      "user_type": "editor",
+      "name": "Rohit"
+    },
+    {
+      "id": 5,
+      "user_type": "editor",
+      "name": "Gurmeet"
+    },
+    {
+      "id": 6,
+      "user_type": "editor",
+      "name": "Karan"
+    }
+  ],
+  "story": [
+    {
+      "headline": "karan karan karan this is headline",
+      "primaryKey": "Karan",
+      "secondaryKey": "girlfriend, sdkjfjhksjah",
+      "editor_id": 4,
+      "assign_person_id": 2,
+      "assignTo": "Ravi",
+      "assignBy": "Rohit",
+      "publicDate": "2022-12-07T14:54",
+      "category": "A",
+      "subCategory": "A-1",
+      "subSubCategory": "A-1-1",
+      "storyType": "picture",
+      "breakingNews": true,
+      "notes": "hsdfahsdkfhjskadh fskajdhfjhfjkashfk sjh fkhasdkfhskda",
+      "status": "write",
+      "id": 3
+    }
+  ],
+  "picture":[
+    {
+      "id": 1,
+      "story": "pata nahi"
+    }
+  ]
+}
